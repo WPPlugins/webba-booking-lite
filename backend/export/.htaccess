@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^http://localhost:8080/wbk-lite/wp-admin/admin.php\?page\=wbk-appointments.* [NC]
+RewriteRule .* - [F]
